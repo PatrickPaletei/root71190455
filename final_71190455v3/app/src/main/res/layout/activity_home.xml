@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity.HomeActivity">
+
+    <EditText
+        android:id="@+id/edtJudul"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtPenerbit"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Penerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/save_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnLogOut"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Data"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnLihatData"/>
+
+
+
+</LinearLayout>
+
+
+
+
